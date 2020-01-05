@@ -6,6 +6,53 @@
     margin-right: auto;
     padding-top: 6.8125em;
 }
-#search {
 
+div.search {
+    width: 482px;
+    margin-top: 20px;
+    display: block;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+}
+
+#glass {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+#mic {
+    display: block;
+    width: 15px;
+    height: 20px;
+    float: right;
+    padding-top: 12px;
+    padding-right: 20px;
+}
+
+section.buttons {
+    text-align: center;
+}
+div.button {
+    display: inline-block;
+}
+
+.clicky {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
 }
