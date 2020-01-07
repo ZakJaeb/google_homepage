@@ -1,3 +1,63 @@
+/*HEADER*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nleft {
+    display: inline-block;
+    float: left;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.nleft a {
+    padding-left: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+}
+
+.nright {
+    display: inline-block;
+    float: right;
+    padding-right: 16px;
+    padding-top: 10px;
+}
+.nright a {
+    padding-right: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+}
+.nright img {
+    position: relative;
+    transform: translate(0%, 25%);
+    padding-right: 20px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.50;
+}
+.nright img:hover {
+    opacity: 1;
+}
+.nright button {
+    width: 70px;
+    height: 32px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: #4285F4;
+    border-radius: 3px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 #logo {
     height: 92px;
     width: 272px;
@@ -7,8 +67,12 @@
     padding-top: 6.8125em;
 }
 
+/*MAIN*/
+main {
+    padding-top: 100px;
+}
 div.search {
-    width: 482px;
+    width: 585px;
     margin-top: 20px;
     display: block;
     background: #fff;
@@ -55,4 +119,10 @@ div.button {
     height: 36px;
     min-width: 54px;
     text-align: center;
+}
+/*FOOTER*/
+footer {
+    position: fixed;
+    bottom 0;
+    background-color: blue;
 }
