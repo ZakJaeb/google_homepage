@@ -53,6 +53,9 @@ ul {
     background-color: #4285F4;
     border-radius: 3px;
 }
+.nright button:hover {
+    box-shadow: 5px 5px grey;
+}
 
 a:hover {
     text-decoration: underline;
@@ -120,9 +123,53 @@ div.button {
     min-width: 54px;
     text-align: center;
 }
+.clicky:hover {
+    box-shadow: 5px 5px grey;
+}
+
 /*FOOTER*/
 footer {
     position: fixed;
-    bottom 0;
-    background-color: blue;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    background-color:#f2f2f2;
+}
+
+div.blnav ul {
+    float: left;
+}
+div.blnav li {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+div.blnav a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.50;
+}
+div.blnav a:hover {
+    text-decoration: underline;
+}
+
+div.brnav ul {
+    float: right;
+}
+div.brnav li {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+div.brnav a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.50;
+}
+div.brnav a:hover {
+    text-decoration: underline;
 }
